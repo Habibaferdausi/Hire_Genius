@@ -1,0 +1,131 @@
+.custom-background {
+  position: relative;
+  height: 700px;
+}
+
+.custom-background::before {
+  content: "";
+  position: absolute;
+  padding-top: 300px;
+  width: 100%;
+  border-radius: 600px;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(68, 120, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.bg-image {
+  background-image: url("https://i.ibb.co/nB8sNnh/Ellipse-158.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+  width: 688.89px;
+  margin-left: 600.78px;
+  padding-bottom: 20px;
+}
+
+.image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.image-container img {
+  max-height: 100%;
+  width: auto;
+}
+
+.card-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://i.ibb.co/KcZpCW9/Polygon-7.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.img-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  height: 85px;
+  width: 85px;
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 27px;
+}
+.card-text {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.card-p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #858585;
+}
+
+.icon-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 25px;
+  width: 40px;
+  position: absolute;
+}
+
+.tool-heading {
+  height: 106px;
+  width: 571px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 53px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+.box {
+  width: 445.56px;
+  height: 101.11px;
+}
+.box-heading {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 37px;
+  text-align: left;
+  height: 37px;
+  width: 250px;
+}
+.box-text {
+  height: 55.55555725097656px;
+  width: 445.5555419921875px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #858585;
+  text-align: left;
+}
