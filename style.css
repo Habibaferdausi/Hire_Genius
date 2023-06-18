@@ -129,3 +129,19 @@
   color: #858585;
   text-align: left;
 }
+
+.section-heading {
+  height: 106px;
+  width: 615px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 53px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.section-text {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #5d5d5d;
+}
