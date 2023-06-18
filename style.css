@@ -1,31 +1,3 @@
-.custom-background {
-  position: relative;
-  height: 700px;
-}
-
-.custom-background::before {
-  content: "";
-  position: absolute;
-  padding-top: 300px;
-  width: 100%;
-  border-radius: 600px;
-  height: 100%;
-  background: linear-gradient(
-    180deg,
-    rgba(68, 120, 255, 0.1) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-}
-.bg-image {
-  background-image: url("https://i.ibb.co/nB8sNnh/Ellipse-158.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom right, left;
-  width: 688.89px;
-  margin-left: 600.78px;
-  padding-bottom: 20px;
-}
-
 .image-container {
   position: absolute;
   top: 0;
